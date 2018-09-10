@@ -41,7 +41,7 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "     Swift Installer Module    "
   ui_print "*******************************"
 }
 
@@ -51,14 +51,6 @@ print_modname() {
 
 # List all directories you want to directly replace in the system
 # Check the documentations for more info about how Magic Mount works, and why you need this
-
-# This is an example
-REPLACE="
-/system/app/Youtube
-/system/priv-app/SystemUI
-/system/priv-app/Settings
-/system/framework
-"
 
 # Construct your own list here, it will override the example above
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now

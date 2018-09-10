@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=swift_installer
+name=Swift Installer Module
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=gmillz
+description=Systemless Theming For Pie using Swift Installer
 minMagisk=17000
